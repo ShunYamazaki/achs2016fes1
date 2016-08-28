@@ -29,11 +29,12 @@ body {
 }
 
 /* Set the fixed height of the footer here */
-#push,
+/*#push,
 #footer {
   height: 60px;
-}
-/* Lastly, apply responsive CSS fixes as necessary */
+}*/
+
+/* フッタのやつ */
 @media (max-width: 767px) {
   #footer {
     margin-left: -20px;
@@ -41,23 +42,4 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
-}
-
-/* list */
-ul {
-	list-style-type: none;
-	padding-left: 0;
-}
-li {
-	background: #CCC;
-	width: 50px;
-	height: 50px;
-	padding: 10px;
-	margin: 10px;
-}
-.inline {
-	text-align: center;
-}
-.inline li {
-	display: inline;
 }
