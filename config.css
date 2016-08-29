@@ -29,10 +29,10 @@ body {
 }
 
 /* Set the fixed height of the footer here */
-/*#push,
+#push,
 #footer {
   height: 60px;
-}*/
+}
 
 /* フッタのやつ */
 @media (max-width: 767px) {
