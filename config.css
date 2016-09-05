@@ -2,6 +2,16 @@
   margin:0;
   padding:0;
 }
+
+.line {
+  background: #D32F2F;
+}
+
+.menu {
+  background: #4CAF50;
+  color: #FFFFFF;
+}
+
 /* Fixed Navbar styles
 -------------------------------------------------- */
 .fixed-top {
@@ -11,7 +21,11 @@
   left: 0;
   z-index: 1030;
   margin-bottom: 0;
+  background: #F44336;
+  color: #FFFFFF;
 }
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html,
@@ -29,10 +43,10 @@ body {
 }
 
 /* Set the fixed height of the footer here */
-/* #push,
+#push,
 #footer {
   height: 60px;
-} */
+}
 
 /* フッタのやつ */
 @media (max-width: 767px) {
